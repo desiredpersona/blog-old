@@ -1,0 +1,4 @@
+# Netlify Redirects
+
+/themes/                              /open-source/
+https://desiredpersona.com/bluehost/  https://www.bluehost.com/track/0000001/
