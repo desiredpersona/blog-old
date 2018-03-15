@@ -42,6 +42,6 @@ Finally click the ‘Save’ button.
 
 {% include figure image_path="/assets/images/adsbridge-create-offer-postback-settings.png" alt="AdsBridge postback settings menu" caption="AdsBridge postback settings menu" %}{: .w-100 .tc}
 
-If you made it this far, you have now successfully [setup an offer with AdsBridge](http://www.adsbridge.com/){:target="_blank"}. The next step is to create a campaign.
+If you made it this far, you have now successfully setup an offer with AdsBridge. The next step is to create a campaign.
 
 Did you find this tutorial helpful?

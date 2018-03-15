@@ -62,12 +62,12 @@ If you followed the steps above carefully you should have node.js installed on y
 
 To download Ghost go to the [developers page](https://ghost.org/developers/){:target="_blank"} and press the button to download the latest zip file.
 
-Unzip and rename the folder to 'ghost'. For this tutorial i put Ghost in my documents folder at this location `/Documents/ghost/`. You may prefer to change the location and folder name to suit your own preferences.
+Unzip and rename the folder to 'ghost'. For this tutorial i put Ghost in my documents folder at this location `/Sites/ghost/`. You may prefer to change the location and folder name to suit your own preferences.
 
 To install Ghost you’ll need to open a terminal window. Change the directory to the location of your Ghost website with the following command.
 
 {% highlight shell %}
-cd ~/Documents/ghost/
+cd ~/Sites/ghost/
 {% endhighlight %}
 
 Now install Ghost
@@ -159,7 +159,7 @@ If the username in the message is yours, you've successfully set up your SSH key
 Now its time to generate your static website.
 
 {% highlight shell %}
-cd ~/Documents/ghost/
+cd ~/Sites/ghost/
 {% endhighlight %}
 
 You can view all buster commands so you know whats available
@@ -213,7 +213,7 @@ Open Terminal window.
 Change location to your Ghost websites root directory
 
 {% highlight shell %}
-cd ~/Documents/ghost/
+cd ~/Sites/ghost/
 {% endhighlight %}
 
 Startup your Node server.
@@ -227,7 +227,7 @@ Login to your Ghost website in a web browser at [http://localhost:2368/ghost/](h
 Open a second Terminal window and change the location to your Ghost websites root directory
 
 {% highlight shell %}
-cd ~/Documents/ghost/
+cd ~/Sites/ghost/
 {% endhighlight %}
 
 Update the changes to your static website. Replace 'example.com' with your domain name.
@@ -294,7 +294,7 @@ Create a 'aws-credentials.json' file in your local Ghost static directory using 
 Change to static directory
 
 {% highlight shell %}
-cd ~/Documents/ghost/static/
+cd ~/Sites/ghost/static/
 {% endhighlight %}
 
 Create 'aws-credentials.json' file.
@@ -328,7 +328,7 @@ Create a '.gitignore' file and add 'aws-credentials.json' and if you are using a
 Change to static directory
 
 {% highlight shell %}
-cd ~/Documents/ghost/static/
+cd ~/Sites/ghost/static/
 {% endhighlight %}
 
 Create '.gitignore' file.
@@ -381,7 +381,7 @@ Create a file called 'aws-upload.conf.js' in your Ghost static directory of your
 Change to static directory
 
 {% highlight shell %}
-cd ~/Documents/ghost/static/
+cd ~/Sites/ghost/static/
 {% endhighlight %}
 
 Create 'aws-upload.conf.js' file.
@@ -434,7 +434,7 @@ Now its finally time to upload your static website files to your Amazon s3 bucke
 Change to your static directory in Terminal
 
 {% highlight shell %}
-cd ~/Documents/ghost/static/
+cd ~/Sites/ghost/static/
 {% endhighlight %}
 
 Upload your static website files using this command

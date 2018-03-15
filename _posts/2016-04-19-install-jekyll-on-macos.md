@@ -67,10 +67,10 @@ Check Jekyll version
 jekyll -v
 {% endhighlight %}
 
-Change directory to the location where you want to create your site. I have chosen to keep all my Jekyll sites in a directory called `Jekyll` located in `/Documents/Jekyll/`.
+Change directory to the location where you want to create your site. I have chosen to keep all my Jekyll sites in a directory called `Jekyll` located in `/Sites/Jekyll/`.
 
 {% highlight shell %}
-cd ~/Documents/Jekyll/
+cd ~/Sites/Jekyll/
 {% endhighlight %}
 
 Create a new Jekyll site. Replace `site-name` below with your own site name.
@@ -82,7 +82,7 @@ jekyll new site-name
 Change directory to the new site you just created
 
 {% highlight shell %}
-cd ~/Documents/Jekyll/site-name/
+cd ~/Sites/Jekyll/site-name/
 {% endhighlight %}
 
 Preview your new site with the command 
@@ -112,7 +112,7 @@ brew install git
 Open Terminal and go to your website directory
 
 {% highlight shell %}
-cd ~/Documents/Jekyll/site-name/
+cd ~/Sites/Jekyll/site-name/
 {% endhighlight %}
 
 Your first instinct, when you start to do something new, should be to type `git init`. Once inside your Jekyll site directory initialize it as a Git repository with the command

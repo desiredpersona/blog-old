@@ -120,6 +120,6 @@ Enter your username and password, then click “Log In.” This will take you to
 
 Remember when you [sign up through this tutorial](https://desiredpersona.com/bluehost/){:target="_blank"} you will receive this special offer of shared hosting, as well as a FREE domain name for the first year.
 
-If you found this guide helpful please consider leaving a comment or sharing the post.
+If you found this guide helpful please consider sharing the post.
 
 [Affiliate disclosure](/links/){: .f7 .black-80}

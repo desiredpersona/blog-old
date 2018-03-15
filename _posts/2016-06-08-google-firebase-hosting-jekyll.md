@@ -97,7 +97,7 @@ When prompted, allow Firebase to collect anonymous CLI usage information by typi
 Change directory to your Jekyll website’s directory.
 
 {% highlight shell %}
-cd ~/Jekyll/desiredpersona
+cd ~/Sites/Jekyll/desiredpersona
 {% endhighlight %}
 
 Create a Firebase project
@@ -112,7 +112,7 @@ In Terminal you will be prompted to answer a few questions
 
 **What Firebase CLI features do you want to setup for this folder?**
 
-The only option we need to select here for our jekyll static website is ‘Hosting’. Press the ‘spacebar’ key to deselect ‘Database’ and then hit the ‘return’ key.
+The only option we need to select here for our Jekyll static website is ‘Hosting’. Press the ‘spacebar’ key to deselect ‘Database’ and then hit the ‘return’ key.
 
 **What do you want to use as your public directory? (public)**
 
