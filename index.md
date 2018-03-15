@@ -1,5 +1,5 @@
 ---
-layout: front
+layout: home
 title:  desired persona
 description: Build a brand fueled by passive income. Learn to generate sales from paid advertising, media buying and search engine optimisation.
 introduction: |

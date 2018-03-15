@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
 # Jekyll
-gem "jekyll", "3.7.2"
+gem "jekyll", "3.7.3"
 
 # Theme Development
-gem "ark-jekyll-theme", :path => "../"
+#gem "ark-jekyll-theme", :path => "../"
 
 # Theme
-#gem "minimal-jekyll-theme"
+gem "ark-jekyll-theme"
 
 # Plugins
 group :jekyll_plugins do
