@@ -1,4 +1,6 @@
-# Netlify Redirects
+# Netlify Redirects https://play.netlify.com/redirects
 
-/themes/                              /open-source/
-https://desiredpersona.com/bluehost/  https://www.bluehost.com/track/0000001/
+/themes/            /open-source/
+/install-jekyll/    /install-jekyll-on-macos/
+/archive/           /writings/
+/bluehost/          https://www.bluehost.com/track/0000001/
