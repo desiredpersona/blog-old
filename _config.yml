@@ -42,11 +42,7 @@ include:
   - _redirects
 
 exclude:
-  - Gemfile
   - Gemfile.lock
-  - webpack.config.js
-  - tailwind.js
-  - package.json
   - node_modules
   
 
