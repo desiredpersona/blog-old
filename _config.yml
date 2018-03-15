@@ -20,6 +20,12 @@ port        : 4000
 theme       : ark-jekyll-theme
 permalink   : /:title/
 
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: desiredpersona
+
 markdown: kramdown
 kramdown:
     input: GFM
@@ -38,6 +44,11 @@ include:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - webpack.config.js
+  - tailwind.js
+  - package.json
+  - node_modules
+  
 
 
 ################################
