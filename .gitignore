@@ -1,8 +1,8 @@
 .DS_Store
 .bundle
 Gemfile.lock
-example/_site
 _site
 .sass-cache
 *.gem
 .vscode
+node_modules
