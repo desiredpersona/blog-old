@@ -1,0 +1,14 @@
+{
+  "name": "ark-jekyll-theme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "ARK Jekyll Theme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/desiredpersona/ark-jekyll-theme.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-purgecss": "^0.20.0"
+  }
+}
