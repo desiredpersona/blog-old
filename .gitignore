@@ -6,4 +6,3 @@ _site
 *.gem
 .vscode
 node_modules
-package-lock.json
