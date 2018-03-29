@@ -7,4 +7,4 @@ comments: false
 author: desired persona
 ---
 
-Today I registered a company. desired persona creates online brands fueled by passive income. Learn how to generate sales from paid advertising, media buying and search engine optimisation by [subscribing to my newsletter]({{ site.newsletter }}){:target="_blank"}.
+I create online brands fueled by passive income. [Subscribe to my newsletter]({{ site.newsletter }}){:target="_blank"} to learn how i generate sales from paid advertising, media buying and search engine optimisation.
