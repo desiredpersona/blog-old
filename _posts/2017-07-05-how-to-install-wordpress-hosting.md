@@ -1,14 +1,10 @@
 ---
 layout: post
 title: How to install WordPress with Bluehost
-description: A detailed step-by-step guide showing you how to setup WordPress hosting with Bluehost a highly recommended web hosting company.
+description: A detailed step-by-step guide showing you how to install WordPress and setup hosting with Bluehost a highly recommended web hosting company.
 date: 2017-09-05 1:01:00
+last_modified_at: 2018-03-27 11:33:00
 author: desired persona
-header:
-    layout: hero
-    image: "/assets/images/desk-mac.jpg"
-    vh: vh-50 vh-75-l
-    class: bg-darken-50 bg-darken-25-l
 
 category:
     - WordPress
