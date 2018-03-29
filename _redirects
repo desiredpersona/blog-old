@@ -1,6 +1,7 @@
 # Netlify Redirects https://play.netlify.com/redirects
 
-/themes/            /open-source/
-/install-jekyll/    /install-jekyll-on-macos/
-/archive/           /writings/
-/bluehost/          https://www.bluehost.com/track/0000001/
+/themes/                          /open-source/
+/install-jekyll/                  /install-jekyll-on-macos/
+/google-firebase-hosting-jekyll/  /jekyll-firebase-hosting/
+/archive/                         /writings/
+/bluehost/                        https://www.bluehost.com/track/0000001/
