@@ -19,4 +19,4 @@ I have tested every recommendation on this page. Many of the resources listed he
 
 - [Github Pages](https://pages.github.com){:target="_blank"} - Hosted directly from your GitHub repository. Just edit, push, and your changes are live.
 
-- [Firebase Hosting](https://firebase.google.com/){:target="_blank"} - Quickly and easily deploy your static websites to a global content-delivery network (CDN) with a single command. I wrote a detailed [Firebase hosting tutorial]({% post_url 2016-06-08-google-firebase-hosting-jekyll %}){:target="_blank"} to get you started.
+- [Firebase Hosting](https://firebase.google.com/){:target="_blank"} - Quickly and easily deploy your static websites to a global content-delivery network (CDN) with a single command. I wrote a detailed [Firebase hosting tutorial]({% post_url 2016-06-08-jekyll-firebase-hosting %}){:target="_blank"} to get you started.

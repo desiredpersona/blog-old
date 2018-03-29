@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Host Jekyll on Firebase hosting
-description: Firebase Hosting is a developer focused static web hosting provider that is super fast, secure and reliable. You can quickly and easily deploy your static websites to a global content-delivery network (CDN) with a single command.
+title: Deploy Jekyll to Firebase hosting
+description: Firebase Hosting is a developer focused static web hosting provider that is super fast, secure and reliable. You can quickly and easily deploy your Jekyll static websites to a global content-delivery network (CDN) with a single command.
 date: 2016-06-08 02:00:00
-last_modified_at: 2017-07-28 12:24:00
+last_modified_at: 2018-03-20 11:40:00
 author: desired persona
 category:
     - Jekyll
