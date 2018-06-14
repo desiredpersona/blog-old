@@ -2,6 +2,7 @@
 .bundle
 Gemfile.lock
 _site
+_drafts
 .sass-cache
 *.gem
 .vscode
