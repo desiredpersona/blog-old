@@ -1,19 +1,23 @@
 ################################
 # Navigation Links
 ################################
+
 navigation:
 
   - title: Home
     url: /
 
-  - title: Writings
-    url: /writings/
-
   - title: About
     url: /about/
 
+  - title: Writings
+    url: /writings/
+
   - title: Themes
     url: /open-source/
+
+  - title: Contact
+    url: /contact/
 
   - title: Newsletter
     url: http://eepurl.com/cKS1on
@@ -22,12 +26,21 @@ navigation:
 ################################
 # UI Default Text
 ################################
+
 text:
+
+    # post.html
     updated           : Updated
-    words_per_minute  : 200
     minute_read       : min read
+    words_per_minute  : 200
     undefined_wpm     : Undefined parameter text.words_per_minute in your theme.yml file
-    comment_button    : View Comments
-    post_limit        : 3
-    full_archive_url  : /writings/    # 404 page archive link
-    
+
+    # home.html
+    post_heading      : Latest Writings     # Latest posts heading.
+    post_limit        : 5                   # Show this many latest post on your homepage.
+    archive_heading   : Older Writings      # Archives heading. 
+    archive_title     : View the archives   # Archives link title.
+    archive_url       : /writings/          # Archive link url for home.html and 404 page layouts.
+
+    # footer.html
+    menu_title        : Menu                # Footer menu title on mobile view.
