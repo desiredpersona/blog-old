@@ -4,17 +4,20 @@ title: About
 permalink: /about/
 ---
 
-desired persona works with some of the biggest brands online both directly and through affiliate marketing partnerships. We help brands generate leads from paid advertising, media buying and search engine optimisation.
+Desired Persona works with some of the biggest brands online both directly and through affiliate marketing partnerships. We generate leads from paid advertising, media buying and search engine optimisation.
 
 >The desired persona of a brand is the image presented to the public by the company.
 
-We provide the following services for both our clients and brands
+## Services
+
 - Lead generation
 - Conversion rate optimisation (CRO)
-- Pay-per-click advertising
+- Pay-per-click advertising (PPC)
 - Media buying campaigns
+- Online marketing
+- Affiliate marketing
 - Search engine optimisation (SEO)
 - Web design
-- Marketing
+- Illustration
 - Copywriting
 - Technical writing

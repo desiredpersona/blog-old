@@ -15,6 +15,6 @@ tags:
 
 I recently wrote an article over on the Forestry.io blog about the new features available in Jekyll 3.4.0 
 
-Forestry is a content management systems (CMS) for Jekyll and Hugo sites.
+Forestry.io is a Git-backed CMS (content management system) for websites built using static site generators such as Jekyll and Hugo.
 
 [Read my guest post](https://forestry.io/blog/post/what-s-new-in-jekyll-3-4-0/)
