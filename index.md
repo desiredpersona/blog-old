@@ -1,6 +1,6 @@
 ---
 layout: home
-title:  desired persona
+title:  Desired Persona
 description: Build a brand fueled by passive income. Learn how to generate sales from paid advertising, media buying and search engine optimisation.
 introduction: |
    Build a brand fueled by passive income.
