@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's new in Jekyll 3.4.0
-description: I recently wrote a guest post over on Forestry.io about the new features available in Jekyll 3.4.0
+description: I wrote an article over on Forestry's blog about the new features available in Jekyll 3.4.0
 date: 2017-02-17 09:00:00
 author: desired persona
 comments: false
@@ -13,7 +13,7 @@ tags:
   - Forestry CMS
 ---
 
-I recently wrote an article over on the Forestry.io blog about the new features available in Jekyll 3.4.0 
+I wrote an article over on Forestry's blog about the new features available in Jekyll 3.4
 
 Forestry.io is a Git-backed CMS (content management system) for websites built using static site generators such as Jekyll and Hugo.
 

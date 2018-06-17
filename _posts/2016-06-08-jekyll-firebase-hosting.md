@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploy Jekyll to Firebase hosting
+title: Deploy Jekyll to Firebase Hosting
 description: Firebase Hosting is a developer focused static web hosting provider that is super fast, secure and reliable. You can quickly and easily deploy your Jekyll static websites to a global content-delivery network (CDN) with a single command.
 date: 2016-06-08 02:00:00
 last_modified_at: 2018-03-20 11:40:00
@@ -25,7 +25,7 @@ Ready to get started?
 
 ## Create a free Google Firebase account
 
-{% include figure image_path="/assets/images/firebase-hosting.png" alt="firebase hosting homepage" caption="Firebase homepage" %}{: .w-100 .tc}
+{% include figure image_path="/assets/images/firebase-hosting.png" alt="firebase hosting homepage" caption="Firebase homepage" %}
 
 Sign in to the [Firebase Console](https://firebase.google.com){:target="_blank"} and create a new project. You will be prompted to enter a ‘Project name’ and choose a ‘Country/region’.
 

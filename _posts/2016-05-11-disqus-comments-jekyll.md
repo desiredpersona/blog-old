@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to add Disqus comments to Jekyll
+title: How to add Disqus comments to Jekyll 
 description: Adding Disqus comments to your Jekyll static website is easy. I will show you step by step if you give me a few minutes of your time.
 date: 2016-05-11 22:30:00
 last_modified_at: 2017-08-14 05:00:00
