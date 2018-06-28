@@ -12,7 +12,11 @@ tags:
 
 I recently added Disqus to my Jekyll powered website. This guide will keep the code clutter free and as reusable as possible.
 
-Open `config.yml` and add the following code. Remember to change `my_disqus_shortname` to your own Disqus shortname.
+Sign up for a [Disqus account](https://disqus.com).
+
+Register your website with Disqus by creating a unique [Disqus shortname](https://help.disqus.com/installation/whats-a-shortname).
+
+Open your sites `config.yml` and add the following code. Remember to change `my_disqus_shortname` below which is just a placeholder for your own sites unique Disqus shortname.
 
 ```yaml
 # Disqus Comments
