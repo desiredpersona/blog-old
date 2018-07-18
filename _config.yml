@@ -55,7 +55,7 @@ exclude:
 ################################
 # Analytics Settings
 ################################
-google_analytics: # UA-34087082-1
+google_analytics:
 google_tag_manager: GTM-MXVMW9W
 
 
