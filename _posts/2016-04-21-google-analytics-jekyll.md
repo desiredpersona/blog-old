@@ -16,7 +16,7 @@ Google Analytics tracking is a free web analytics service offered by Google that
 
 Login to [Google Analytics](https://www.google.com/analytics){:target="_blank"} and create a new property to receive a tracking ID for your website. You will find your Universal Analytics tracking code under **Admin > Property > Tracking Info > Tracking Code**. Your tracking ID and property number are displayed at the top of the page.
 
-## Install Google Analytics tracking on your website
+## Install Google Analytics tracking code
 
 First create a new file called `analytics.html` in your site's `_includes` directory.
 
@@ -48,9 +48,9 @@ ga('send', 'pageview');
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 {% endraw %}{% endhighlight %}
 
-The `{% raw %}{{ site.google_analytics }}{% endraw %}` liquid object included above will allow us to set our tracking ID in our sites `_config` file.
+The `{% raw %}{{ site.google_analytics }}{% endraw %}` liquid object included above will allow us to set our tracking ID in Jekyll's `_config` file.
 
-### Add your Google Analytics tracking ID to Jekyll’s _config.yml file
+## Add Google Analytics tracking ID to Jekyll’s config file
 
 Open your sites `_config.yml` file and add the following lines of code. It is important to reference your own tracking ID, so replace `UA—XXXXXXXX-X` below with your websites unique tracking ID.
 
@@ -78,9 +78,11 @@ Great right?
 
 "But how do i setup Google Analytics to only track site visitors on a production environment?" I hear you say.
 
-If you are using Github Pages to build your site, GitHub Pages will automatically set `jekyll.environment == 'production'` for you.
+## Setting Jekyll's environment to production
 
-### Only add Google Analytics when Jekyll's enviroment = production
+We only need to add our Google Analytics script when Jekyll's environment = production. This prevents us from messing up our analytics with visits from our localhost development server.
+
+If you are using Github Pages to build your site, GitHub Pages will automatically set `jekyll.environment == 'production'` for you.
 
 If you are using another hosting provider or building your site locally, you will now need to prefix the build command with `JEKYLL_ENV=production` like so
 

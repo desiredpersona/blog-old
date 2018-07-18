@@ -10,13 +10,13 @@ tags:
   - Disqus comments
 ---
 
-I recently added Disqus to my Jekyll powered website. This guide will keep the code clutter free and as reusable as possible.
+I've made it rather easy for you to add Disqus comments to your Jekyll website. This guide will keep the code clutter free and as reusable as possible.
 
-Sign up for a [Disqus account](https://disqus.com).
+First sign up for a [Disqus account](https://disqus.com) if you haven't already.
 
-Register your website with Disqus by creating a unique [Disqus shortname](https://help.disqus.com/installation/whats-a-shortname).
+Next register your Jekyll website with Disqus by creating a unique [Disqus shortname](https://help.disqus.com/installation/whats-a-shortname).
 
-Open your sites `config.yml` and add the following code. Remember to change `my_disqus_shortname` below which is just a placeholder for your own sites unique Disqus shortname.
+Open your Jekyll sites `config.yml` file and add the following code. Remember to change `my_disqus_shortname` below which is just a placeholder for your own websites unique Disqus shortname that you created earlier.
 
 ```yaml
 # Disqus Comments
@@ -48,7 +48,7 @@ Create a file called `disqus_comments.html` in Jekyll’s `_includes` folder and
 {% raw %}{% endif %}{% endraw %}
 {% endhighlight %}
 
-The above codeblock includes your [ Disqus Universal Embed Code](https://disqus.com/admin/universalcode/){:target="_blank"}. You may have noticed that i wrapped the code between `{% raw %}{% if page.comments != false and jekyll.environment == "production" %}{% endraw %}` and `{% raw %}{% endif %}{% endraw %}` liquid if statement. This included if statement will allow you to disable Disqus comments on any blog post. You simply add `comments: false` in that posts YAML front-matter. As an added bonus it will also prevent Disqus loading when Jekyll's environment is set to development.
+The above codeblock includes your [ Disqus Universal Embed Code](https://disqus.com/admin/universalcode/){:target="_blank"}. You may have noticed that i wrapped the code between `{% raw %}{% if page.comments != false and jekyll.environment == "production" %}{% endraw %}` and `{% raw %}{% endif %}{% endraw %}` liquid if statement. This included if statement will allow you to disable Disqus comments on any blog post. You simply add `comments: false` in that posts [YAML front-matter](https://jekyllrb.com/docs/frontmatter/). As an added bonus it will also prevent Disqus loading when Jekyll's environment is set to development.
 
 Finally, open your posts layout file normally called `post.html` which is located in your `_includes` folder and add the following liquid include tag just after the end `</article>` tag. This will load Disqus comments right underneath your blog posts when Jekyll's environment is set to production.
 

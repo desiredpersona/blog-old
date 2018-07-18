@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How to setup AdsBridge automatic Postback URL
+title: How to set up postback tracking in AdsBridge
 date: 2016-05-22 21:00:00
-description: How to setup AdsBridge automatic Postback URL to pass conversion data to your affiliate network.
+description: Learn how to set up postback in AdsBridge tracking platform to pass conversion data to your affiliate network.
 author: desired persona
 category: affiliate marketing
 tags:

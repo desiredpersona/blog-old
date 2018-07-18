@@ -16,8 +16,8 @@ tags:
 
 For many, when they think of WordPress, they think “blog.” And while WordPress is one of the world’s largest blogging platforms, WordPress is also a complete content management system and is a great way to build many different types of websites. This tutorial will show you how easy it can be to get your blog or website setup and running quickly.
 
-### Why choose Bluehost?
-There are many hosting companies out there, but for a WordPress site, Bluehost is the first one I had ever used and should definitely be at the top of anyone’s list. Bluehost is the only hosting service [officially recommended by WordPress](https://desiredpersona.com/bluehost/){:target="_blank"}  and has been the number-one recommended hosting service for their platform for over 13 years (since 2005). There are many reasons why this hosting company is so highly recommended. Here are just a few of my reasons for choosing Bluehost;
+## Why choose Bluehost as your web hosting service provider?
+There are many hosting companies out there, but for a WordPress site, Bluehost is the first one I have ever used and should definitely be at the top of anyone’s list. Bluehost is the only hosting service [officially recommended by WordPress](https://desiredpersona.com/bluehost/){:target="_blank"}  and has been the number-one recommended hosting service for their platform for over 13 years (since 2005). There are many reasons why this hosting company is so highly recommended. Here are just a few of my reasons for choosing Bluehost;
 
 - Good customer service, reliability and usability.
 - Easy-to-use control panel.
@@ -33,7 +33,7 @@ To setup your hosting account with Bluehost, follow the steps below. Before you 
 
 {% include figure image_path="/assets/images/bluehost-wordpress-hosting.png" alt="Bluehost WordPress hosting" caption="Bluehost homepage" %}
 
-### Setting up a Bluehost account
+## Setting up a hosting account with Bluehost
 
 To get started, go to the [Bluehost homepage](https://desiredpersona.com/bluehost/){:target="_blank"} and click “Get Started Now”.
 
@@ -63,7 +63,7 @@ You can use the Password Generator to create a strong and secure password, or cr
 
 Now that you are all signed up and are able to log into your account, you can get started installing WordPress!
 
-### Installing WordPress
+## Installing WordPress
 This may seem like the most complicated step, but Bluehost has worked hard to make this one of the easiest things for you to do. Bluehost use the new MOJO Marketplace for installing WordPress and other applications. This simplifies the whole process as you do not have to manually create a database or upload files via FTP which is great for non-techie’s!
 
 Once you’ve logged into your Bluehost account, select the “hosting” menu, then select the “cpanel” menu. Scroll down to the section titled “website” and choose the “One-Click Installs” button.
@@ -118,4 +118,4 @@ Remember when you [sign up through this tutorial](https://desiredpersona.com/blu
 
 If you found this guide helpful please consider sharing the post.
 
-[Affiliate disclosure](/links/){: .f6 .fw4 .dark-gray}
+[Affiliate disclosure](/links/){: .f6 .fw4 .black}
