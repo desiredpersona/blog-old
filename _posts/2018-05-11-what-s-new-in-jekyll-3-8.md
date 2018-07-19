@@ -13,7 +13,7 @@ tags:
   - Forestry CMS
 ---
 
-After the success of my previous [post about Jekyll 3.4](https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/), I was invited back to write an article on Forestry's blog about the new features available in Jekyll 3.8.
+After the success of my previous [post about Jekyll 3.4](https://forestry.io/blog/what-s-new-in-jekyll-3-4-0/), I was invited back to write another article on Forestry's blog about the new features available in Jekyll 3.8.
 
 > Forestry.io is a Git-backed CMS (content management system) for websites built using static site generators such as Jekyll and Hugo.
 
