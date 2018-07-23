@@ -1,7 +1,8 @@
 # Netlify Redirects https://play.netlify.com/redirects
 
-/themes/                            /open-source/                             301
-/install-jekyll/                    /install-jekyll-on-macos/                 301
-/google-firebase-hosting-jekyll/    /jekyll-firebase-hosting/                 301
-/archive/                           /writings/                                301
-/bluehost/                          https://www.bluehost.com/track/0000001/   301
+/themes/                            /open-source/                                         301
+/install-jekyll/                    /install-jekyll-on-macos/                             301
+/google-firebase-hosting-jekyll/    /jekyll-firebase-hosting/                             301
+/archive/                           /writings/                                            301
+/bluehost/                          https://www.bluehost.com/track/0000001/               301
+/how-to-install-wordpress-hosting/  /how-to-install-wordpress-with-bluehost-web-hosting/  301
