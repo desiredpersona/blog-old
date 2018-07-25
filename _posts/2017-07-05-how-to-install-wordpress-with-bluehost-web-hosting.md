@@ -17,7 +17,7 @@ tags:
 For many, when they think of WordPress, they think “blog.” And while WordPress is one of the world’s largest blogging platforms, WordPress is also a complete content management system and is a great way to build many different types of websites. This tutorial will show you how easy it can be to get your blog or website setup and running quickly.
 
 ## Why choose Bluehost as your web hosting service provider?
-There are many hosting companies out there, but for a WordPress site, Bluehost is the first one I have ever used and should definitely be at the top of anyone’s list. Bluehost is the only hosting service [officially recommended by WordPress](https://desiredpersona.com/bluehost/){:target="_blank"}  and has been the number-one recommended hosting service for their platform for over 13 years (since 2005). There are many reasons why this hosting company is so highly recommended. Here are just a few of my reasons for choosing Bluehost;
+There are many hosting companies out there, but for a WordPress site, Bluehost is the first one I have ever used and should definitely be at the top of anyone’s list. Bluehost is the only hosting service [officially recommended by WordPress](https://desiredpersona.com/bluehost/){: rel="nofollow" target="_blank"}  and has been the number-one recommended hosting service for their platform for over 13 years (since 2005). There are many reasons why this hosting company is so highly recommended. Here are just a few of my reasons for choosing Bluehost;
 
 - Good customer service, reliability and usability.
 - Easy-to-use control panel.
@@ -27,7 +27,7 @@ There are many hosting companies out there, but for a WordPress site, Bluehost i
 - Unlimited websites, email accounts, and domains – all on one account for a reasonable price.
 - No contracts with a 30-day money back guarantee and the option to cancel at any time.
 
-If you [sign up through this tutorial](https://desiredpersona.com/bluehost/){:target="_blank"}, you’ll see a special offer of shared hosting at $3.95/month for 36 months, as well as a FREE domain name for your first year.
+If you [sign up through this tutorial](https://desiredpersona.com/bluehost/){: rel="nofollow" target="_blank"} , you’ll see a special offer of shared hosting at $3.95/month for 36 months, as well as a FREE domain name for your first year.
 
 To setup your hosting account with Bluehost, follow the steps below. Before you get started think of a domain name you want to use and have your credit card ready for payment. This will make the process more straight forward and save you time.
 
@@ -35,7 +35,7 @@ To setup your hosting account with Bluehost, follow the steps below. Before you 
 
 ## Setting up a hosting account with Bluehost
 
-To get started, go to the [Bluehost homepage](https://desiredpersona.com/bluehost/){:target="_blank"} and click “Get Started Now”.
+To get started, go to the [Bluehost homepage](https://desiredpersona.com/bluehost/){: rel="nofollow" target="_blank"} and click “Get Started Now”.
 
 Next, you need to choose a domain name for your site. If you already own a domain name, you can enter it here, and you will just have to go through a few extra steps to get your DNS pointed to Bluehost. If you don’t already have a domain name, you can grab one for FREE on the left of the sign up page.  Yes you read that right! It comes FREE with every new Bluehost hosting account purchase.
 
@@ -47,7 +47,7 @@ Once you’ve entered a domain name, you’ll fill in your personal information.
 
 Then, you’ll choose which hosting package you want. Normal, shared hosting is priced at 12, 24 and 36-month terms. To help save you money in the long run choose the 36 month term as it gives you the best introductory rate of $3.95/month. However pick whichever package suits your current requirements because at the end of the day they are great value for money.
 
-When the need does arise to upgrade your hosting, Bluehost provide seamless upgrades to VPS or dedicated server hosting accounts from within your control panel. This is another advantage for choosing to [host your WordPress website with Bluehost](https://desiredpersona.com/bluehost/){:target="_blank"}.
+When the need does arise to upgrade your hosting, Bluehost provide seamless upgrades to VPS or dedicated server hosting accounts from within your control panel. This is another advantage for choosing to [host your WordPress website with Bluehost](https://desiredpersona.com/bluehost/){: rel="nofollow" target="_blank"}.
 
 There are a few other offers provided at sign up, which you can include at your discretion. One I would always recommend is “Site Backup Pro”, a paid service that automatically makes a daily backup copy of your website. This protects you from data loss. It really is just for peace of mind but shit happens!
 
@@ -114,7 +114,7 @@ Enter your username and password, then click “Log In.” This will take you to
 
 {% include figure image_path="/assets/images/wordpress-dashboard.png" alt="WordPress dashboard" caption="WordPress dashboard" %}
 
-Remember when you [sign up through this tutorial](https://desiredpersona.com/bluehost/){:target="_blank"} you will receive this special offer of shared hosting, as well as a FREE domain name for the first year.
+Remember when you [sign up through this tutorial](https://desiredpersona.com/bluehost/){: rel="nofollow" target="_blank"} you will receive this special offer of shared hosting, as well as a FREE domain name for the first year.
 
 If you found this guide helpful please consider sharing the post.
 
