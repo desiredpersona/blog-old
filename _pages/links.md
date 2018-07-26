@@ -3,6 +3,7 @@ layout: page
 title: Links
 description: Affilate link disclosure
 permalink: /links/
+meta_robots: noindex, follow
 ---
 
 Some of the links on my website are affiliate links.
