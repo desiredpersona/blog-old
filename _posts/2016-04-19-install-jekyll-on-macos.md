@@ -26,15 +26,15 @@ Installing Jekyll is easy and straight-forward, but there are a few requirements
 xcode-select --install
 ```
 
-3. Install [Homebrew](https://brew.sh) a package manager for MacOS.
+3. Install [Homebrew](https://brew.sh) a package manager for macOS.
 
     **Why?**
     
     We will use Homebrew to install Ruby. 
     
-    **Why MacOS already comes with a version of Ruby?**
+    **Why macOS already comes with a version of Ruby?**
 
-    A lot of the system directories in MacOS are locked down making it unusable.
+    A lot of the system directories in macOS are locked down making it unusable.
 
     Install Homebrew using the following command in Terminal app.
     ```
