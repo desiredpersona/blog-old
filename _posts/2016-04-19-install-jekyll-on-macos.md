@@ -412,7 +412,7 @@ You can double check your Ruby path with the command `which ruby` and then your 
 
 You may continue with installing Bundler and Jekyll below. The next section is only relevant to those who want to run multiple version of Ruby on their machines. It's completely overkill for most people.
 
-## How to manage multiple version of Ruby using rbenv (Optional Step)
+## How to manage multiple versions of Ruby using rbenv (Optional Step)
 
 Install rbenv with the following command using Homebrew.
 
