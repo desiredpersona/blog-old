@@ -3,7 +3,7 @@ layout: post
 title: Install Jekyll on macOS Mojave
 description: How to install Jekyll static site generator on macOS and host your static website on Github Pages.
 date: 2016-04-19 22:00:00
-last_modified_at: 2018-12-12 20:35:00
+last_modified_at: 2018-12-12 21:01:00
 author: desired persona
 category:
     - Jekyll
