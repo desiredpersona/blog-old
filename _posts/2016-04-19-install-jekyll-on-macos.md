@@ -244,9 +244,14 @@ https://docs.brew.sh
 
 As you can see above we have now install Homebrew successfully.
 
+Next, we will install Ruby using Homebrew. This route is recommended for most users. 
+
+
+**Note:** I have added an advance section below on 'How to manage multiple versions of Ruby using rbenv' but this section is completely unnecessary for most users installing Jekyll for the first time.
+
 ## Install Ruby using Homebrew
 
-Next, install the latest version of Ruby using Homebrew.
+Install the latest version of Ruby using Homebrew.
 
 ```sh
 brew install ruby
@@ -389,18 +394,20 @@ Check the Ruby version to confirm a successful installation.
 ruby -v
 ```
 
-output:
+Output:
 ```
 ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin18]
 ```
 
-Update your Ruby path with the command.
+We now need to update our `~/.bash_profile` file with the new Ruby and gem paths.
+
+Update your Ruby path with the command;
 
 ```sh
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 ```
 
-Update your gems path with the command.
+Update your gems path with the command;
 
 ```sh
 echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bash_profile
@@ -410,9 +417,12 @@ Relaunch your terminal for changes to take effect.
 
 You can double check your Ruby path with the command `which ruby` and then your gem path by using `gem env`.
 
-You may continue with installing Bundler and Jekyll below. The next section is only relevant to those who want to run multiple version of Ruby on their machines. It's completely overkill for most people.
+You may continue with installing Bundler and Jekyll below.
 
-## How to manage multiple versions of Ruby using rbenv (Optional Step)
+**Note:**
+As I've mentioned earlier, the next section is only relevant to those developers who want to run multiple version of Ruby on their machines for testing. It's completely overkill for most Jekyll users.
+
+## How to manage multiple versions of Ruby using rbenv
 
 Install rbenv with the following command using Homebrew.
 
