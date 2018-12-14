@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Install Jekyll on macOS Mojave
-description: How to install Jekyll static site generator on macOS and host your static website on Github Pages.
+description: Learn how to install Jekyll static site generator on macOS Mojave using Homebrew. I also cover how to manage multiple versions of Ruby using rbenv.
 date: 2016-04-19 22:00:00
 last_modified_at: 2018-12-12 21:01:00
 author: desired persona
@@ -401,13 +401,13 @@ ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin18]
 
 We now need to update our `~/.bash_profile` file with the new Ruby and gem paths.
 
-Update your Ruby path with the command;
+Update your Ruby path with the command
 
 ```sh
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 ```
 
-Update your gems path with the command;
+Update your gems path with the command
 
 ```sh
 echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bash_profile
