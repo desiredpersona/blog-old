@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Install Jekyll on macOS Mojave
-description: Learn how to install Jekyll static site generator on macOS Mojave using Homebrew. I also cover how to manage multiple versions of Ruby using rbenv.
+description: Learn how to install Jekyll static site generator on macOS Mojave using Homebrew.
 date: 2016-04-19 22:00:00
 last_modified_at: 2018-12-12 21:01:00
 author: desired persona
-category:
-    - Jekyll
-    - static website
 tags:
+    - Jekyll
     - macOS
+    - JAMstack
 ---
 
 [Jekyll](https://jekyllrb.com/) is a tool for transforming your plain text into static websites and blogs. It is simple, static, and blog-aware. Jekyll uses the [Liquid templating language](https://docs.shopify.com/themes/liquid-basics) and has built-in [Markdown](https://daringfireball.net/projects/markdown/) and [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language)) support. It also ties in nicely to [Github Pages](https://pages.github.com/) but I personal use [Netlify](https://www.netlify.com) to host this website for free. I highly recommend you join [Jekyll Talk](https://talk.jekyllrb.com/) the official support forum where you can ask questions and discuss all aspects of Jekyll. 
@@ -25,6 +24,13 @@ Install the Xcode Command Line Tools using your Terminal app.
 xcode-select --install
 ```
 
+You may also need to install the macOS SDK headers.
+
+```sh
+open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
+```
+
+Starting with Mojave, the macOS SDK headers are no longer installed under `/usr/include/` by default which can cause Jekyll install issues. You can confirm these changes under the heading "Command Line Tools / New Features" in the [Xcode 10 Release Notes](https://developer.apple.com/documentation/xcode_release_notes/xcode_10_release_notes). However, Xcode comes with the current version's headers.
 
 ## Install Homebrew
 

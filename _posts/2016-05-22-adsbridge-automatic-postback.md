@@ -10,7 +10,7 @@ tags:
     - postback URL
 ---
 
-To setup your AdsBridge postback URL login to the [AdsBridge tracking platform](http://www.adsbridge.com/){:target="_blank"} and select ‘Affiliate Networks/Create affiliate network’.
+To setup your AdsBridge postback URL login to the [AdsBridge tracking platform](http://www.adsbridge.com/){: rel="nofollow"} and select ‘Affiliate Networks/Create affiliate network’.
 
 Choose your ‘Affiliate Networks Template’ which is provided by AdsBridge or manually enter your own network configuration.
 
