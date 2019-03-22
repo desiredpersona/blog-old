@@ -3,12 +3,12 @@ layout: post
 title: Install Jekyll on macOS Mojave
 description: Learn how to install Jekyll static site generator on macOS Mojave using Homebrew.
 date: 2016-04-19 22:00:00
-last_modified_at: 2018-12-12 21:01:00
+last_modified_at: 2019-03-22 16:15:00
 author: desired persona
 tags:
-    - Jekyll
-    - macOS
-    - JAMstack
+  - Jekyll
+  - macOS
+  - JAMstack
 ---
 
 [Jekyll](https://jekyllrb.com/) is a tool for transforming your plain text into static websites and blogs. It is simple, static, and blog-aware. Jekyll uses the [Liquid templating language](https://docs.shopify.com/themes/liquid-basics) and has built-in [Markdown](https://daringfireball.net/projects/markdown/) and [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language)) support. It also ties in nicely to [Github Pages](https://pages.github.com/) but I personal use [Netlify](https://www.netlify.com) to host this website for free. I highly recommend you join [Jekyll Talk](https://talk.jekyllrb.com/) the official support forum where you can ask questions and discuss all aspects of Jekyll. 
@@ -24,7 +24,7 @@ Install the Xcode Command Line Tools using your Terminal app.
 xcode-select --install
 ```
 
-You may also need to install the macOS SDK headers.
+You also need to install the macOS SDK headers.
 
 ```sh
 open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
@@ -405,28 +405,35 @@ Output:
 ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin18]
 ```
 
-We now need to update our `~/.bash_profile` file with the new Ruby and gem paths.
-
-Update your Ruby path with the command
+We now need to update our `~/.bash_profile` file with the new `$PATH`, `$GEM_PATH` and `$GEM_HOME` paths. Open the file with the following command
 
 ```sh
-echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+nano ~/.bash_profile
 ```
 
-Update your gems path with the command
+My `.bash_profile` currently looks like this. You will need to add these 3 lines.
+
+```
+# Ruby
+export PATH=/usr/local/opt/ruby/bin:$PATH
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+```
+
+To exit press `Ctrl` + `X` and then type the letter `Y` and press the `Return` key to save your changes.
+
+Next reload your `.bash_profile` from the command line.
 
 ```sh
-echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bash_profile
+source ~/.bash_profile
 ```
-
-Relaunch your terminal for changes to take effect.
 
 You can double check your Ruby path with the command `which ruby` and then your gem path by using `gem env`.
 
 You may continue with installing Bundler and Jekyll below.
 
 **Note:**
-As I've mentioned earlier, the next section is only relevant to those developers who want to run multiple version of Ruby on their machines for testing. It's completely overkill for most Jekyll users.
+As I mentioned earlier, the next section is only relevant to those developers who want to run multiple version of Ruby with Rbenv on their machines for testing. It is completely overkill for most Jekyll users.
 
 ## How to manage multiple versions of Ruby using rbenv
 
@@ -502,7 +509,11 @@ You can add the above line manually or run the following command to update your 
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
-Close your Terminal window and open a new one so your changes take effect.
+Next reload your `.bash_profile` from the command line.
+
+```sh
+source ~/.bash_profile
+```
 
 Verify that rbenv is properly set up using this rbenv-doctor script:
 
@@ -525,22 +536,22 @@ Auditing installed plugins: OK
 
 You can now list all available version of Ruby using `rbenv install -l`.
 
-Let's install the latest stable release which is currently `Ruby 2.5.3` as of writing.
+Let's install the latest stable release which is currently `Ruby 2.6.2` as of writing.
 
 ```sh
-rbenv install 2.5.3
+rbenv install 2.6.2
 ```
 
 Output:
 
 ```
-MacBook-Pro:jekyll-test-site Colin$ rbenv install 2.5.3
+MacBook-Pro:jekyll-test-site Colin$ rbenv install 2.6.2
 ruby-build: use openssl from homebrew
-Downloading ruby-2.5.3.tar.bz2...
--> https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.tar.bz2
-Installing ruby-2.5.3...
+Downloading ruby-2.6.2.tar.bz2...
+-> https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.2.tar.bz2
+Installing ruby-2.6.2...
 ruby-build: use readline from homebrew
-Installed ruby-2.5.3 to /Users/Colin/.rbenv/versions/2.5.3
+Installed ruby-2.6.2 to /Users/Colin/.rbenv/versions/2.6.2
 ```
 
 List all Ruby versions known to rbenv
@@ -554,25 +565,44 @@ Output:
 MacBook-Pro:jekyll-test-site Colin$ rbenv versions
   system
 * 2.5.3 (set by /Users/Colin/.rbenv/version)
+  2.6.2
 ```
 
 Set the global version of Ruby.
 
 ```sh
-rbenv global 2.5.3
+rbenv global 2.6.2
 ```
 
 Confirm your global version of Ruby is set.
 
 ```sh
-rbenv global
+ruby -v
 ```
 
 Output:
 ```
-MacBook-Pro:jekyll-test-site Colin$ rbenv global
-2.5.3
+MacBook-Pro:jekyll-test-site Colin$ ruby -v
+ruby 2.6.2p47 (2019-03-13 revision 67232) [x86_64-darwin18]
 ```
+
+(Optional) Remove old Ruby versions. You will need to change the version number below, but this command will give you the directory location.
+
+```
+rbenv prefix 2.5.3
+```
+
+Output:
+```
+/Users/Colin/.rbenv/versions/2.5.3
+```
+
+(Optional) To remove old Ruby versions, simply `rm -rf` the directory of the version you want to remove. Be careful!
+
+```
+rm -rf /Users/Colin/.rbenv/versions/2.5.3
+```
+
 
 ## Install Bundler
 
@@ -585,10 +615,10 @@ gem install bundler
 Output:
 ```
 MacBook-Pro:jekyll-test-site Colin$ gem install bundler
-Fetching: bundler-1.17.1.gem (100%)
-Successfully installed bundler-1.17.1
-Parsing documentation for bundler-1.17.1
-Installing ri documentation for bundler-1.17.1
+Fetching bundler-2.0.1.gem
+Successfully installed bundler-2.0.1
+Parsing documentation for bundler-2.0.1
+Installing ri documentation for bundler-2.0.1
 Done installing documentation for bundler after 3 seconds
 1 gem installed
 ```
@@ -606,6 +636,8 @@ Check the Jekyll version.
 ```sh
 jekyll -v
 ```
+
+If you get an error at this point, Run `bundle update` while in your site directory to update your websites dependencies.
 
 Done!
 
